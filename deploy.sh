@@ -17,7 +17,7 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io，去掉下面这一行的注释
-git push -f git@github.com:hualy/hualy.github.io.git master
+git push -f https://${access_token}@github.com/hualy/hualy.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>，去掉下面这一行的注释
 # git push -f https://${token}@github.com:<USERNAME>/<REPO>.git master:gh-pages
